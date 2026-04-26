@@ -260,6 +260,77 @@ section { padding: 4rem 0; }
 .testimonial-author { margin-top: 1rem; font-size: 0.85rem; color: #64748b; }
 .testimonial-author strong { color: #f1f5f9; font-weight: 600; }
 
+
+.omar-featured-testimonial {
+  background: #0f172a;
+  padding: 4rem 0;
+  border-top: 1px solid rgba(255,255,255,0.06);
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+}
+.omar-testimonial-card {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 2rem;
+  align-items: center;
+  max-width: 900px;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.10);
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 22px 60px rgba(0,0,0,0.22);
+}
+.omar-testimonial-photo {
+  width: 190px;
+  height: 190px;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 20px;
+  border: 1px solid rgba(255,255,255,0.12);
+  background: #e5e7eb;
+}
+.omar-testimonial-kicker {
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: #22c55e;
+  font-size: 0.75rem;
+  font-weight: 800;
+  margin-bottom: 0.75rem;
+}
+.omar-testimonial-quote {
+  color: #f8fafc;
+  font-size: clamp(1.35rem, 3vw, 2rem);
+  line-height: 1.35;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  margin: 0;
+}
+.omar-testimonial-sub {
+  color: #94a3b8;
+  margin-top: 1rem;
+  font-size: 0.95rem;
+}
+.omar-testimonial-author {
+  margin-top: 1.25rem;
+  color: #f1f5f9;
+  font-weight: 800;
+  font-size: 1rem;
+}
+.omar-testimonial-title {
+  color: #94a3b8;
+  font-size: 0.9rem;
+  margin-top: 0.2rem;
+}
+@media (max-width: 640px) {
+  .omar-testimonial-card {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .omar-testimonial-photo {
+    margin: 0 auto;
+  }
+}
+
 /* Features */
 .features-grid {
   display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem;
@@ -412,6 +483,7 @@ footer {
       <div class="nav-links">
         <a href="#features">Features</a>
         <a href="#how-it-works">How it works</a>
+        <a href="#testimonial">Testimonial</a>
         <a href="#pricing">Pricing</a>
         <a href="#faq">FAQ</a>
         <a href="ai-receptionist-shopmonkey-auto-repair.html">AI + Shopmonkey</a>
@@ -482,6 +554,25 @@ footer {
       <div class="testimonial-card">
         <div class="testimonial-text">"I was skeptical about AI answering my phones. After the free audit showed how many calls I was missing, I signed up the same day. Best decision this year."</div>
         <div class="testimonial-author"><strong>Carlos M.</strong> &mdash; Shop Manager, 6-Bay Shop, AZ</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ===================== FEATURED TESTIMONIAL ===================== -->
+<section class="omar-featured-testimonial" id="testimonial">
+  <div class="container">
+    <div class="omar-testimonial-card">
+      <div>
+        <img class="omar-testimonial-photo" src="assets/omar-velazquez-testimonial.jpg" alt="Omar Velazquez, President of Keller Williams Realty in Oxnard CA">
+      </div>
+      <div>
+        <div class="omar-testimonial-kicker">Local Business Testimonial</div>
+        <blockquote class="omar-testimonial-quote">“Professional, responsive, and easy to work with. Great service and a smooth experience from start to finish.”</blockquote>
+        <p class="omar-testimonial-sub">Trusted by local business leaders who value fast communication and a professional customer experience.</p>
+        <div class="omar-testimonial-author">Omar Velazquez</div>
+        <div class="omar-testimonial-title">President, Keller Williams Realty — Oxnard, CA</div>
       </div>
     </div>
   </div>
