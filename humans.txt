@@ -1,0 +1,12 @@
+/* TEAM */
+Owner & Concept: Auto Shop Receptionist
+Contact: christian@autoshopreceptionist.com
+Site: https://autoshopreceptionist.com/
+
+/* SITE */
+Technology: HTML, CSS, JavaScript
+Focus: AI phone receptionist for auto repair shops & mechanics
+Location: California, USA
+
+/* THANKS */
+Thanks to all the independent auto repair shops who keep people safely on the road.

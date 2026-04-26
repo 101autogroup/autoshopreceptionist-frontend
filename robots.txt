@@ -1,0 +1,5 @@
+User-agent: *
+Disallow:
+
+# Point search engines to your XML sitemap
+Sitemap: https://autoshopreceptionist.com/sitemap.xml
